@@ -1,0 +1,32 @@
+{
+  "name": "@bruju/pg-to-dot",
+  "version": "1.0.0",
+  "description": "Converts a Neo4J like PG in JSON to a dot file for GraphViz",
+  "module": "index.js",
+  "scripts": {
+    "test": "npx mocha -r ts-node/register index.test.ts",
+    "build": "npx tsc --build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BruJu/graphviz-moi-ce-pg.git"
+  },
+  "author": "Julian Bruyat <julian@bruy.at>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BruJu/graphviz-moi-ce-pg/issues"
+  },
+  "homepage": "https://github.com/BruJu/graphviz-moi-ce-pg#readme",
+  "devDependencies": {
+    "@types/mocha": "^10.0.0",
+    "@types/node": "^18.11.9",
+    "mocha": "^10.1.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4"
+  },
+  "files": [
+    "build/index.js",
+    "build/index.d.ts",
+    "build/src/**"
+  ]
+}
