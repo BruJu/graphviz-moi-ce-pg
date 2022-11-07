@@ -1,0 +1,7 @@
+digraph {
+  node [shape="rectangle"]
+
+  n1 [label=":person\nname: \"Michel\""]
+  n2 [label=":dog\nname: \"Woufwouf\""]
+  n1 -> n2 [label=":owns\nsince: 2007"]
+}

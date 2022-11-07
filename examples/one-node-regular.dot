@@ -1,0 +1,5 @@
+digraph {
+  node [shape="rectangle"]
+
+  n1 [label=":animal:llama\nname: \"John\"\ncolor: \"black\"\nage: 26"]
+}
